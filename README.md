@@ -22,28 +22,28 @@ The application consists of two parts that must be run simultaneously in two sep
 ### Step 1: Start the Backend API (Terminal 1)
 
 1. Open a terminal and navigate to this directory:
-   `ash
+   `
    cd path/to/HousePrice
    `
 2. Run the Flask API script:
-   `ash
+   `
    python HousePrice_API.py
    `
-   *Note: If that fails, try lask --app HousePrice_API run.*
+   *Note: If that fails, try Flask --app HousePrice_API run.*
 3. Leave this terminal running in the background. It serves as the "brain" of the application.
 
 ### Step 2: Start the Frontend UI (Terminal 2)
 
 1. Open a **new** terminal window and navigate into the mobile-app directory:
-   `ash
+   `
    cd path/to/HousePrice/mobile-app
    `
 2. Install the necessary Node dependencies (only required the first time):
-   `ash
+   `
    npm install
    `
 3. Start the development server:
-   `ash
+   `
    npm run dev
    `
 4. The terminal will output a local URL (e.g., http://localhost:5173). Click the link or paste it into your browser to view and interact with the application!
